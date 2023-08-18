@@ -35,7 +35,7 @@ jobs:
           policy_type: 'aws'
           only_warn: true
           sarif_upload: true
-          node-version: 16
+          node-version: 16 #test
 
       - name: Upload SARIF file
         uses: github/codeql-action/upload-sarif@v2
